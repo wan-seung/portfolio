@@ -1,0 +1,186 @@
+* {
+    scroll-behavior: smooth;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Song Myung', serif;
+}
+section{
+    height: 800px;
+    padding-top: 100px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: navajowhite;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 100;
+}
+
+.nav-left {
+    font-size: 50px;
+    font-style: normal;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    align-items: flex-end;
+    padding-right: 30px;
+    justify-content: space-around;
+}
+.logo-list {
+    width: 180px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-list li {
+    margin-left: 10px;
+}
+
+.logo-image{
+    width: 40px;
+    height: 40px;
+}
+
+.menu-list {
+    justify-content: end;
+    font-size: 28px;
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.menu-list li {
+    margin-left: 20px;
+}
+
+
+.home-img{
+    background-image: url(./image/Surfing.jpg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.home-img p{
+    font-family: 'song myung', serif;
+}
+
+.img-cover{
+    width: 100%;
+}
+
+.content{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    font-size: 64px;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 150px;
+    padding-top: 50px;
+}
+.about-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 70%;
+}
+.about-text{
+    font-size: 3rem;
+    line-height: 2;
+    width: 600px;
+    margin-left: 100px;
+}
+.hobby{
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background-color: wheat;
+}   
+.hobby p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hobby-content{
+    font-size: 40px;
+    margin: 0px;
+}
+.hobby-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0 200px;
+}
+.hobby-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 200px;
+    
+}
+.hobby img{
+    width: 260px;
+    height: 260px;
+    border-radius: 30%;
+}
+.programimage img{
+    width: 300px;
+    height: 300px;
+}
+
+.goal {
+    background-color: steelblue;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+}
+.cc{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal-content{
+    font-size: 32px;
+    line-height: 2;
+}
+.programimage img{
+    border-radius: 70%;
+}
